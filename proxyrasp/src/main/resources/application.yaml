@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: proxyrasp
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/proxyrasp
+        username: postgres
+        password: postgres
+        hikari:
+            initialization-fail-timeout: -1
+    jpa:
+        defer-datasource-initialization: true
+        hibernate:
+            ddl-auto: none
