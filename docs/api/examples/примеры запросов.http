@@ -1,0 +1,45 @@
+@host = rasp.omgtu.ru
+@schedulePathCommon = /api/schedule
+
+@scheduleEndpointAuditorium = {{schedulePathCommon}}/auditorium/
+
+### ПОИСК
+@searchEndpoint = /api/search
+
+### 
+GET {{host}}{{searchEndpoint}}?term=пэ&type=group HTTP/1.1
+
+### поиск аудитории содержащей 220
+GET {{host}}{{searchEndpoint}}?term=220&type=auditorium HTTP/1.1
+
+### ГРУППЫ
+@scheduleEndpointGroup = {{schedulePathCommon}}/group/
+
+### наше расписание на 26 февраля
+GET {{host}}{{scheduleEndpointGroup}}565?start=2026.02.26&finish=2026.02.26 HTTP/1.1
+
+### пустое расписания
+GET {{host}}{{scheduleEndpointGroup}}565?start=2026.02.25&finish=2026.02.25&lng=1 HTTP/1.1
+
+
+### наше расписание со 2 февраля по 30 июля
+### комментарий по задержкам: не видел, чтобы официальному серверу требовалось МЕНЬШЕ 700 мс для ответа
+### комментарий по содержимому: почти 30к строк, очень много, весит 900 КБ
+GET {{host}}{{scheduleEndpointGroup}}565?start=2026.02.02&finish=2026.07.30&lng=1 HTTP/1.1
+
+### ошибка дней 180 и больше {"error": "period-is-too-big"}
+GET {{host}}{{scheduleEndpointGroup}}565?start=2026.02.02&finish=2026.07.31&lng=1 HTTP/1.1
+
+### ошибка конец раньше начала {"error": "period-is-wrong"}
+GET {{host}}{{scheduleEndpointGroup}}565?start=2026.03.02&finish=2026.02.02&lng=1 HTTP/1.1
+
+### в формате ics
+### комментарий по задержкам: не видел, чтобы официальному серверу требовалось БОЛЬШЕ 500 мс для ответа
+### комментарий по содержимому: 2-3к строк, гораздо меньше чем в json варианте, весит 100 КБ
+GET {{host}}{{scheduleEndpointGroup}}565.ics?start=2026.02.02&finish=2026.07.30&lng=1 HTTP/1.1
+
+
+### ПРЕПОДЫ
+@scheduleEndpointPerson = {{schedulePathCommon}}/person/
+
+###
