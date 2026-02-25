@@ -1,0 +1,2760 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ZContent//ZapCalLib 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Omsk
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20260202T113500
+DTEND:20260202T130500
+UID:96bf411b48a5b6b715e4477de9df4334-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260202T131500
+DTEND:20260202T144500
+UID:ac1e64f27a955a5f7f5ed2ec22a07172-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260203T113500
+DTEND:20260203T130500
+UID:781c0736da90e335cc66747eab9df809-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260203T131500
+DTEND:20260203T144500
+UID:19d2796dee7ea2959b6250a686d9141b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260203T151000
+DTEND:20260203T164000
+UID:bf8f95e1652a76b8b30e610169ee8a52-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260204T151000
+DTEND:20260204T164000
+UID:1697220f79323faafa5a6a743f1ebf32-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260204T165000
+DTEND:20260204T182000
+UID:5c79a51ac5c0cdc05da75382257319d0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260206T080000
+DTEND:20260206T182000
+UID:5e40acadeb8e16d91bc459b8028b827a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260207T094000
+DTEND:20260207T111000
+UID:4bead33f15796cab7124502ba98834b8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260207T113500
+DTEND:20260207T130500
+UID:b90762f01840c8bd2b21cf3e6e8e48ce-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260207T131500
+DTEND:20260207T144500
+UID:411c2ebff0578d459a3a4d2ec9a6e955-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260207T151000
+DTEND:20260207T164000
+UID:688ce474f88ec46a0c6f8b64aa1c59ba-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260210T131500
+DTEND:20260210T144500
+UID:db7e5663fd279d57b24b4f88606ddd72-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260210T151000
+DTEND:20260210T164000
+UID:8e7ff1daec0fa9614590dd2c7d19c9de-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260210T165000
+DTEND:20260210T182000
+UID:afa53cc464697da98a5785d07c5f5891-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260212T094000
+DTEND:20260212T111000
+UID:6942ccf0dd6570c3485fc9776455c605-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260212T113500
+DTEND:20260212T130500
+UID:f0a1352f8e875942dc85f0009aa9ff9a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260213T151000
+DTEND:20260213T164000
+UID:3bca8dcc9723a27b79402d12b444ea2c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260213T165000
+DTEND:20260213T182000
+UID:70dd5953c23658d9adfd0c37f8f72a58-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260214T113500
+DTEND:20260214T130500
+UID:8e735dd29f4efb3d5ba2bacd5a0d18a2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260214T131500
+DTEND:20260214T144500
+UID:f981fbf40a86a54eeeadfba682a7596f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260214T151000
+DTEND:20260214T164000
+UID:2c25eb28341fd1a5bb16db0243ebc6d9-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260216T113500
+DTEND:20260216T130500
+UID:181100fb1d626469d1b4b25368340bc7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260216T131500
+DTEND:20260216T144500
+UID:aac9c1b97e5a3e28d5fbf19ca44055ca-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260216T151000
+DTEND:20260216T164000
+UID:0a2992f8944d6ea32ea1f389aa282d32-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260217T113500
+DTEND:20260217T130500
+UID:c00bc4c39a1780516673e2c6b40f0130-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260217T131500
+DTEND:20260217T144500
+UID:4d99631ac9238d6020377e38b01f70db-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260217T151000
+DTEND:20260217T164000
+UID:65e16fdb92c37eb59ec71fd7873257a3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260218T151000
+DTEND:20260218T164000
+UID:5d838ee376ad2a7310218a8862cb993d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260218T165000
+DTEND:20260218T182000
+UID:4d07286a55cdb54928641683cbd03b68-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260220T080000
+DTEND:20260220T182000
+UID:3a1b8ab6c9cbd2d91e3cd10121118eb8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260221T094000
+DTEND:20260221T111000
+UID:f67b96289fc19785093b72c0aa2846cd-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260221T113500
+DTEND:20260221T130500
+UID:d708039d3ae83a32a53bac1d66e4b303-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260221T131500
+DTEND:20260221T144500
+UID:7c047d543876b5087c5726f9515b991d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260221T151000
+DTEND:20260221T164000
+UID:01509d319dd42ca614ce308dffff5496-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T113500
+DTEND:20260224T130500
+UID:d74302e6ab5c4454d31e8bd6f8f320d3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:5-305/УЛК-5
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \n \n
+ Лабораторные работы \n5-305/УЛК-5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T131500
+DTEND:20260224T144500
+UID:14caf942725ccb2ee8941e09b4375718-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T151000
+DTEND:20260224T164000
+UID:3c332f1e8295010098386206eb40da35-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nст.пр. ЛАГ
+ УНОВА Ю.Г. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T165000
+DTEND:20260224T182000
+UID:76623eea047917f797daf1bdff06f4c0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nст.пр. ЛАГ
+ УНОВА Ю.Г. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260226T094000
+DTEND:20260226T111000
+UID:897b3b7eb00e5e7b38994d3932072b2d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260226T113500
+DTEND:20260226T130500
+UID:34c7c9ec4ba5cd0c9388d4ecab5c6cf8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260227T131500
+DTEND:20260227T144500
+UID:287f647cbdef98c737cef6d43c9c6105-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:5-306/УЛК-5
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \n \n
+ Лабораторные работы \n5-306/УЛК-5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260227T151000
+DTEND:20260227T164000
+UID:04a648a1b539cb4a12eb2e37b78ca3e5-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260227T165000
+DTEND:20260227T182000
+UID:f93aea54d995d429cabdfdbc0b53f6d7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260228T113500
+DTEND:20260228T130500
+UID:ad12552fe10bb11b9a8f77e813e9768e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260228T131500
+DTEND:20260228T144500
+UID:58bad533a4009513ef9993a89e23ef84-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260228T151000
+DTEND:20260228T164000
+UID:f6a45a5992104003816e30a222989bba-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260302T113500
+DTEND:20260302T130500
+UID:e85df4f73b16e30fcb7c94a6629bbc0b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260302T131500
+DTEND:20260302T144500
+UID:19f06f13dee3ac9b502910b9c3794f23-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260302T151000
+DTEND:20260302T164000
+UID:0996f81548e79dfe01f7212c3fc43433-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260302T151000
+DTEND:20260302T164000
+UID:633ade703523a3d8c57ef2ed0bed188c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Электроника\, электротехника и схемотехника
+LOCATION:8-210А/УЛК-8
+DESCRIPTION:Электроника\, электротехника и схемотехника\nдоц.\, к.н. НИКОНО
+ ВА Г.В. \nПЭ-231н \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \n8-210А/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260303T094000
+DTEND:20260303T111000
+UID:134da9560f09a53a6f1f4274efe913c7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Базы данных
+LOCATION:8-204/УЛК-8
+DESCRIPTION:Базы данных\nдоц.\, к.н. МОРАРЬ Е.В. \nИВТ-231\;ИВТ-232\;ИВТ-23
+ 3\;ИВТ-234\;ИВТ-235\;ПИН-231\;ПИН-232\;ПЭ-231н#Базы данных \nПЕРЕСДАЧА ЗАД
+ ОЛЖЕННОСТИ \n8-204/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260303T113500
+DTEND:20260303T130500
+UID:faa24f582c5d64080f542b9dfd64d6e0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260303T131500
+DTEND:20260303T144500
+UID:2a0add0d009d753bb37d973fa8b6f5f2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260303T151000
+DTEND:20260303T164000
+UID:5633a61005682705fe8a201d6bc6b047-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260303T165000
+DTEND:20260303T182000
+UID:f4c4c8e72e6f9a42ff14abc36ed58454-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Математика
+LOCATION:8-218/УЛК-8
+DESCRIPTION:Математика\nдоц.\, к.н. ТРОЦЕНКО Г.А. \nИВТ-231\;ИВТ-232\;ИВТ-2
+ 35\;ПИН-232\;ПЭ-231н#Математика \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \n8-218/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260304T094000
+DTEND:20260304T111000
+UID:8279bda6b2765303668bcdb80ebb722b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Операционные системы
+LOCATION:8-212/УЛК-8
+DESCRIPTION:Операционные системы\nпроф.\, д.н. НИКОНОВ А.В. \nПЭ-231н \nПЕР
+ ЕСДАЧА ЗАДОЛЖЕННОСТИ \n8-212/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260304T131500
+DTEND:20260304T144500
+UID:f5eac55379743f634facce5663825aeb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Деловой иностранный язык
+LOCATION:8-310/УЛК-8
+DESCRIPTION:Деловой иностранный язык\nдоц.\, к.н. ЕСМУРЗАЕВА Ж.Б. \nПЭ-231н
+  \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \n8-310/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260304T151000
+DTEND:20260304T164000
+UID:9e9bd19b0e3f25dd90882906dbfcc55f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260304T165000
+DTEND:20260304T182000
+UID:9e72d2752da98245ef963709f5a57f83-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260306T080000
+DTEND:20260306T182000
+UID:4e34bc4f7c70a92dba97f5b5d37a7595-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260307T094000
+DTEND:20260307T111000
+UID:58a9fff31e477da1e1fe06d0d272ae95-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260307T113500
+DTEND:20260307T130500
+UID:b6e5dba47de1490d49500ab07341fc81-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260307T131500
+DTEND:20260307T144500
+UID:f6ca6e03e8aa14e9e15f452bdbfd7c64-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260307T151000
+DTEND:20260307T164000
+UID:72fe1d7bd999b7433d576f6360f332c7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260310T131500
+DTEND:20260310T144500
+UID:4068c0599f310fb7eb46e9a84341ee3d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260310T131500
+DTEND:20260310T144500
+UID:dbc056a99ce8a122590532ab37fb4207-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Объектно-ориентированное программирование
+LOCATION:8-214/УЛК-8
+DESCRIPTION:Объектно-ориентированное программирование\nст.п.\, к.н. НИТЕЙСК
+ ИЙ А.С. \nПЭ-231н \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \n8-214/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260310T151000
+DTEND:20260310T164000
+UID:ad1f814ebd4a05c13537b9858e3f4fca-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260310T165000
+DTEND:20260310T182000
+UID:d5d80749609c3565bb54e0fd9688f0d1-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260312T094000
+DTEND:20260312T111000
+UID:8fb6397cc064b57cf2e2a5ca56fab038-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260312T113500
+DTEND:20260312T130500
+UID:5b5ee5572cb178a19a4c2441ca936968-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260313T151000
+DTEND:20260313T164000
+UID:e91e075ee708776516e9669848bea372-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Физическая культура и спорт (элективная дисциплина)
+LOCATION:Г-213а/Главный корпус
+DESCRIPTION:Физическая культура и спорт (элективная дисциплина)\nдоц.\, к.н
+ . ШЕВЕЛЕВА И.Н. \nИВТ-231\;ИВТ-232\;ИВТ-233\;ИВТ-234\;ИВТ-235\;МО-231\;ПИН
+ -231\;ПИН-232\;ПЭ-231н\;ФИТ-231\;ФИТ-232#Физическая культура и спорт (элек
+ тивная дисциплина) \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \nГ-213а/Главный корпус
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260313T151000
+DTEND:20260313T164000
+UID:f9ed4840da403df6123507bbca274fc2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260313T165000
+DTEND:20260313T182000
+UID:aa8546c3237f3eb952622b7cd97b3e63-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260314T113500
+DTEND:20260314T130500
+UID:5f72d39c39bd19205f41fa9b5a9b9c4c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260314T131500
+DTEND:20260314T144500
+UID:70a4f2c3ebbd36bee147123671b5c31c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260314T151000
+DTEND:20260314T164000
+UID:1c5fc726fe1d7a1e9deb2a2439924bd2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260314T165000
+DTEND:20260314T182000
+UID:0d0dc4ee4a3b182a4eb285ceffac263e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260316T113500
+DTEND:20260316T130500
+UID:65db7b3b8df2131797211c6875769255-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260316T131500
+DTEND:20260316T144500
+UID:0ae6a28b3dbaff373983597dfd7a2cc0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260316T151000
+DTEND:20260316T164000
+UID:19ce0d50ada1c6258a687c905da6b38c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260317T113500
+DTEND:20260317T130500
+UID:0a93689808f714dd4502bdc06046bb0c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260317T131500
+DTEND:20260317T144500
+UID:76b8083825cdb56042614e3c6b45c1a1-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260317T151000
+DTEND:20260317T164000
+UID:bb493e9ecf34681270d735ee0b762a9b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260318T151000
+DTEND:20260318T164000
+UID:01dc6e1691523efd36463d3eb2e2b1b9-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260318T165000
+DTEND:20260318T182000
+UID:a2b16f41f862b8570808c8c97865a8e7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260320T080000
+DTEND:20260320T182000
+UID:66954d1334445b0cdfa4bb94d9ad3815-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260321T094000
+DTEND:20260321T111000
+UID:07c356686f6ed0df7a853d48dc984983-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260321T113500
+DTEND:20260321T130500
+UID:16a4045fc38527b3f991772527e4e4af-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260321T131500
+DTEND:20260321T144500
+UID:db7dfdc9f51575378c694abba2c4e834-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260321T151000
+DTEND:20260321T164000
+UID:b84aaa6ea674f6f4e98d252c28d14cf4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260323T131500
+DTEND:20260323T144500
+UID:0a1323d6f96a0191f07fc8a33d625038-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-203/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-203/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260323T151000
+DTEND:20260323T164000
+UID:aa8c1db535ea4aabb6381aa45559a453-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-503/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-503/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260324T131500
+DTEND:20260324T144500
+UID:50fdff8d88c5e2693bc263157844a2a0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260324T151000
+DTEND:20260324T164000
+UID:0213faac6fb2f5d773d34c1437dac5a4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260324T165000
+DTEND:20260324T182000
+UID:9306b2dbed58f49a81a8961ceb15f9be-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260326T094000
+DTEND:20260326T111000
+UID:3addd220e9099f53cd5d087719ae2da0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260326T113500
+DTEND:20260326T130500
+UID:759731d36d89d49be5dbf5a2d758c476-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260327T131500
+DTEND:20260327T144500
+UID:a011854e13d96d252b0a8231c10448c9-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:5-306/УЛК-5
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \n \n
+ Лабораторные работы \n5-306/УЛК-5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260327T151000
+DTEND:20260327T164000
+UID:4d87f61e509bc26fb042a2115fdfc07f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260327T165000
+DTEND:20260327T182000
+UID:425134e2c0d419a30bd2a389d7af9918-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260328T113500
+DTEND:20260328T130500
+UID:b629489253fe179897e6c147921121d9-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260328T131500
+DTEND:20260328T144500
+UID:1da44cd1dab0eb1edd46765fdfa5cd7a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260328T151000
+DTEND:20260328T164000
+UID:4668d82070976fe7665eed8e4fbba9d6-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260330T113500
+DTEND:20260330T130500
+UID:056fa666166bcd98015b3e9c44cd9955-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260330T131500
+DTEND:20260330T144500
+UID:08083edf7153385b49e09d91810792f3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260330T151000
+DTEND:20260330T164000
+UID:68f1e97039d50d8cec2001259c78398e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331T113500
+DTEND:20260331T130500
+UID:84881f02c119d5abfa5e44916241e96e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331T131500
+DTEND:20260331T144500
+UID:be121c83f7d93b5d8cbc0b2446030628-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331T151000
+DTEND:20260331T164000
+UID:b482fab0496ff5020ec5b765de47a98a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260401T151000
+DTEND:20260401T164000
+UID:46d8df243d15c98da264459a572fa643-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260401T165000
+DTEND:20260401T182000
+UID:35bd445fdd4258b988981b2821c17898-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260403T080000
+DTEND:20260403T182000
+UID:0cd3dd641275938e4f6fd4391ab9e829-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404T094000
+DTEND:20260404T111000
+UID:a0c3850701e60624134c3a83cf0ad7ad-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404T113500
+DTEND:20260404T130500
+UID:00d8c9548bae2e47ea3e9ccdf2b389be-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404T131500
+DTEND:20260404T144500
+UID:b0d6cc306545c9d4503fd3bf93d072d9-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404T151000
+DTEND:20260404T164000
+UID:a8c03d39c5e98599de297a53a5769f55-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260407T131500
+DTEND:20260407T144500
+UID:56c9cbd8f41788de14185bf6f7472d58-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260407T151000
+DTEND:20260407T164000
+UID:ac6f6941ee6c99beda1d2f3e6b1610f4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260407T165000
+DTEND:20260407T182000
+UID:2f7b511a1fc5e23244d3a258a3633a99-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260409T094000
+DTEND:20260409T111000
+UID:6325affeb6a2ef139d1ac659f0edab5d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260409T113500
+DTEND:20260409T130500
+UID:96c39a2c010099ac1eb025550ef2781c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260409T131500
+DTEND:20260409T144500
+UID:e4440b13efd213566ceac3ed0bfea4b5-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-203/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-203/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260409T151000
+DTEND:20260409T164000
+UID:d07072dcab97ccb6606dc1ed88d27575-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-203/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-203/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260410T151000
+DTEND:20260410T164000
+UID:7642063d819228a6683b3d3f32f1f7b1-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260410T165000
+DTEND:20260410T182000
+UID:1eae7192cf474057f8d44576d32191b5-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260411T113500
+DTEND:20260411T130500
+UID:1294bf1c2a723c158d0d3c5dc7eba145-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260411T131500
+DTEND:20260411T144500
+UID:603680fdef48452445856e7bffb43e10-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260411T151000
+DTEND:20260411T164000
+UID:7c94b4b095f519beac467b03690ff111-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260411T165000
+DTEND:20260411T182000
+UID:455148331e69a52de33c9a100b1a1a1a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260413T113500
+DTEND:20260413T130500
+UID:e717989888f0dad967d7543e13d12e7d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260413T131500
+DTEND:20260413T144500
+UID:415c6e52c9fd6f07dcdb370056f0f6e3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260413T151000
+DTEND:20260413T164000
+UID:8f595bd633b723aeb2a5c1e2cdf1317e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260414T113500
+DTEND:20260414T130500
+UID:05ec218bb9ee1840537a1b520b450ee2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260414T131500
+DTEND:20260414T144500
+UID:a3a8c5f1ac4323f2d35deb4d6b4a74a3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260414T151000
+DTEND:20260414T164000
+UID:70c063525aa0763b5c6839b7596364d3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260415T151000
+DTEND:20260415T164000
+UID:62aeb2370370b60a426b6c09fe73428b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260415T165000
+DTEND:20260415T182000
+UID:c72e7ebb2a7740839090472c0c9b199f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260417T080000
+DTEND:20260417T182000
+UID:7bf6392406f2dc839d2202e277bad0f4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260418T094000
+DTEND:20260418T111000
+UID:5546a84baa7e37f754917fbf2f393850-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260418T113500
+DTEND:20260418T130500
+UID:0cea33145732c8adfa73b27f50132efb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260418T131500
+DTEND:20260418T144500
+UID:779db7a9f45f7c21fdf0ecfc17e279ec-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260418T151000
+DTEND:20260418T164000
+UID:18918df9ad2bcfe2f4aed209103b9223-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260421T131500
+DTEND:20260421T144500
+UID:23fcf84656e361bd8deeac25232c601c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260421T151000
+DTEND:20260421T164000
+UID:a94205867a74082dd20c1714ca0dc728-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260421T165000
+DTEND:20260421T182000
+UID:f9afc1e55ea4eb7512107bfbd1bf89a4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260423T094000
+DTEND:20260423T111000
+UID:da12756218287cfbb86962b6f214d305-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260423T113500
+DTEND:20260423T130500
+UID:8a6e00031c267078bfb55eb83e7ba8bd-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260424T131500
+DTEND:20260424T144500
+UID:378e1f9a875133e948e878bb1a6b604a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:5-306/УЛК-5
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \n \n
+ Лабораторные работы \n5-306/УЛК-5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260425T113500
+DTEND:20260425T130500
+UID:0cc6bc03319286d91eaf0b72301f7f6b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260425T131500
+DTEND:20260425T144500
+UID:dc248d80e8682f6b4ab22e7911340e5f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260425T151000
+DTEND:20260425T164000
+UID:c604b3c85cb2604d44bd7b13e401c395-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260427T094000
+DTEND:20260427T111000
+UID:80595fb9cdc34247b7c88823141c6596-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260427T113500
+DTEND:20260427T130500
+UID:88202b6e0969c2efe1d0b63d0b1c6351-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260427T131500
+DTEND:20260427T144500
+UID:66cdf6a101eda88394439ea74f5adffb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260428T113500
+DTEND:20260428T130500
+UID:d5d1274c7f7a8ac1482142a610bca343-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260428T131500
+DTEND:20260428T144500
+UID:aa7164765d68f2ad6a2e0cfe1f9c041b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260428T151000
+DTEND:20260428T164000
+UID:1bc00e0ce077dc26ba3562d8b14b064e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260429T151000
+DTEND:20260429T164000
+UID:e2eae1908bb19c9f1f6cf0f698bcc259-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260429T165000
+DTEND:20260429T182000
+UID:479ab09048e8c877568cfe42e738a6bb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T094000
+DTEND:20260502T111000
+UID:5651f94ab949bc13471cb0e3ad9901f1-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T113500
+DTEND:20260502T130500
+UID:fe972b9cd1a6f9f5dda1acb07f81d7fb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T131500
+DTEND:20260502T144500
+UID:1bebc9924966ad982ef17b9428b11bb0-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T151000
+DTEND:20260502T164000
+UID:f32d27c9887ee87c846a17584bf779b6-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260505T131500
+DTEND:20260505T144500
+UID:180bfeb31bd3232ed73ba44418fa3270-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260505T151000
+DTEND:20260505T164000
+UID:0c4d87103a04fd526dc058c3baa94382-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260505T165000
+DTEND:20260505T182000
+UID:3b4d39e26f5ffcaf709cf4d7d4ac674e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260507T094000
+DTEND:20260507T111000
+UID:ab0c8f2fc34bce3219d55ddc57460ba8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260507T113500
+DTEND:20260507T130500
+UID:1aaae98ed23dd71ecc6f3be03ff5f3b8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260508T151000
+DTEND:20260508T164000
+UID:005f4bcbda05772b544b03372eece704-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260508T165000
+DTEND:20260508T182000
+UID:2c5834cac5389904472c5a80e7fbd5f7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260511T113500
+DTEND:20260511T130500
+UID:0fe8c1feb5aacfe8949c97e96a5c110b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260511T131500
+DTEND:20260511T144500
+UID:5e0d98cf7cfb9a395b1a750de7c40bbb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260511T151000
+DTEND:20260511T164000
+UID:0861a021a0c5634783d960109349481e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260512T113500
+DTEND:20260512T130500
+UID:fc06a7eb070eff2f5d43271c0686811a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260512T131500
+DTEND:20260512T144500
+UID:7fc89881ecca600ab5a9051b369923ac-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260512T151000
+DTEND:20260512T164000
+UID:c793373e01336d6aa2a082cf445872d3-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260513T151000
+DTEND:20260513T164000
+UID:13684d52dd491acbef2ce4eac5e1d7c4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260513T165000
+DTEND:20260513T182000
+UID:8a10d53903f819ddc7f06be2c23df0ae-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260515T080000
+DTEND:20260515T182000
+UID:4b5ea514ff19b8e2e7de8aaa43d343af-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260516T094000
+DTEND:20260516T111000
+UID:465e50571acc245f0fac7cca78cf8645-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260516T113500
+DTEND:20260516T130500
+UID:e88c504a8b3bd8b84c44f933615c31f4-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260516T131500
+DTEND:20260516T144500
+UID:9ad1a1fb9fe363050ce0a38a25360d61-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260516T151000
+DTEND:20260516T164000
+UID:7d29d7b60dc62bce01b6623500e7a319-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260519T131500
+DTEND:20260519T144500
+UID:a02cacf406aa1652643c9f33ec982c0e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260519T151000
+DTEND:20260519T164000
+UID:19d08e2d3245c5f20a1acd6a50e3b8bd-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260519T165000
+DTEND:20260519T182000
+UID:f8a73e69d82cf06ee3193992feee35ab-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260521T094000
+DTEND:20260521T111000
+UID:5f5e31bb728c5f0435aacd7b5dcf7145-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260521T113500
+DTEND:20260521T130500
+UID:1c9edd6350c5f26aa6f5197ef634fd82-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-205/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-205/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260522T131500
+DTEND:20260522T144500
+UID:cb552e445adccaf304c7c2c9fa75c39e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:5-306/УЛК-5
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \n \n
+ Лабораторные работы \n5-306/УЛК-5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260522T151000
+DTEND:20260522T164000
+UID:c0d0c8af9acd1eeb07bb204f1b009e28-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260522T165000
+DTEND:20260522T182000
+UID:da9e10a049863a80526aa2c94e3ab5a6-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260523T113500
+DTEND:20260523T130500
+UID:f3553d2a02f8a31905ed7139c04a6b2e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260523T131500
+DTEND:20260523T144500
+UID:3697ebccda3cceadcd9d333eab422cce-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260523T151000
+DTEND:20260523T164000
+UID:431c6796b7b7a62552b117f7b3b6d1f2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260525T113500
+DTEND:20260525T130500
+UID:92eecd92c4ac7d006f5eea33e2163848-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-416/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-416/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260525T131500
+DTEND:20260525T144500
+UID:48a55b612cc03a858fb5f7eb63f5cf3c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \n \nЛабораторные работы \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260525T151000
+DTEND:20260525T164000
+UID:6e6d1d62a07ac6736e40ce15e17a9e80-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260526T113500
+DTEND:20260526T130500
+UID:64135ab1f38ff867ca2359ff69f87f29-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПоток(ПЭ-231н) \nЛекция \
+ n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260526T131500
+DTEND:20260526T144500
+UID:a8884ffb001eed36abc8dbcf1e61af0b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Философия
+LOCATION:7-403/УЛК-7
+DESCRIPTION:Философия\nдоц.\, к.н. МАКУХИН П.Г. \nПЭ-231н \nПрактические за
+ нятия \n7-403/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260526T151000
+DTEND:20260526T164000
+UID:506f5964bcf9136257ebcfb750d0622b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Безопасность жизнедеятельности
+LOCATION:7-511/УЛК-7
+DESCRIPTION:Безопасность жизнедеятельности\nдоц.\, к.н. КОРЧАГИН А.Б. \nПот
+ ок(ПЭ-231н) \nЛекция \n7-511/УЛК-7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260527T151000
+DTEND:20260527T164000
+UID:ab0a7e5c8994676de64785faafde1c8c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПоток(ПЭ-231н) \nЛекция
+  \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260527T165000
+DTEND:20260527T182000
+UID:5b76d12804ae7836a556b4cec5809572-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Экономика
+LOCATION:13-407/УЛК-13
+DESCRIPTION:Экономика\nдоц.\, к.н. КАЛУЖСКИЙ М.Л. \nПЭ-231н \nПрактические 
+ занятия \n13-407/УЛК-13
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260528T094000
+DTEND:20260528T111000
+UID:768cd588eab4de47c6a3ecf3d47ff9a8-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260528T113500
+DTEND:20260528T130500
+UID:dd87d4dec528dbcda5ada5b9cd8b709e-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \n \nЛабораторные работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260529T080000
+DTEND:20260529T182000
+UID:398378f66e21d24b9a3badc485a0fcb2-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Военная (специальная) подготовка
+LOCATION:3-311/УЛК-3
+DESCRIPTION:Военная (специальная) подготовка\nпр. ЛАЛОМОВ Д.Г. \nПЭ-231н \n
+ Лекция \n3-311/УЛК-3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260530T094000
+DTEND:20260530T111000
+UID:24506560964bcbe59243281619e592ac-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260530T113500
+DTEND:20260530T130500
+UID:4c64064d45c4bacbfbe06cd7b43baf9b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260530T131500
+DTEND:20260530T144500
+UID:f951a127b11cc997892dac82d09d7e92-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260530T151000
+DTEND:20260530T164000
+UID:eed8e60731adf83e8bccea3450e4055a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nпроф.\, д.н. ЧУКАНОВ С.Н. \nПоток(ПЭ-231н) 
+ \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260602T131500
+DTEND:20260602T144500
+UID:9ce13f6d2312a7b59774905b6c1aa969-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Методы и средства цифровой обработки сигналов
+LOCATION:8-413/УЛК-8
+DESCRIPTION:Методы и средства цифровой обработки сигналов\nдоц.\, к.н. ПЛЯС
+ КИН М.Ю. \nПоток(ПЭ-231н) \nЛекция \n8-413/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260602T151000
+DTEND:20260602T164000
+UID:2ae3948e0581b7a1f20be1943934b88b-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260602T165000
+DTEND:20260602T182000
+UID:8379cef3e5b4c452dee0bb1b6c5a7fcb-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Теоретические основы автоматизированного управления
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Теоретические основы автоматизированного управления\nпроф.\, д.
+ н. ДЕНИСОВА Л.А. \nПЭ-231н \nПрактические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260605T151000
+DTEND:20260605T164000
+UID:ac566454391d9b4b0ac4c5e6b868a41c-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Физическая культура и спорт (элективная дисциплина)
+LOCATION:Г-213а/Главный корпус
+DESCRIPTION:Физическая культура и спорт (элективная дисциплина)\nдоц.\, к.н
+ . ПАВЛЮТИНА Л.Ю. \nИВТ-231\;ИВТ-232\;ИВТ-233\;ИВТ-234\;ИВТ-235\;МО-231\;ПИ
+ Н-231\;ПИН-232\;ПЭ-231н\;ФИТ-231\;ФИТ-232#Физическая культура и спорт (эле
+ ктивная дисциплина) \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \nГ-213а/Главный корпус
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260605T151000
+DTEND:20260605T164000
+UID:a2607229e17c4310e03318677bcf65a7-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Физическая культура и спорт (элективная дисциплина)
+LOCATION:Г-213а/Главный корпус
+DESCRIPTION:Физическая культура и спорт (элективная дисциплина)\nдоц.\, к.н
+ . ШЕВЕЛЕВА И.Н. \nИВТ-231\;ИВТ-232\;ИВТ-233\;ИВТ-234\;ИВТ-235\;МО-231\;ПИН
+ -231\;ПИН-232\;ПЭ-231н\;ФИТ-231\;ФИТ-232#Физическая культура и спорт (элек
+ тивная дисциплина) \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \nГ-213а/Главный корпус
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260605T151000
+DTEND:20260605T164000
+UID:7341d9239ad686c552a75903c3f6f958-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Физическая культура и спорт (элективная дисциплина)
+LOCATION:Г-213а/Главный корпус
+DESCRIPTION:Физическая культура и спорт (элективная дисциплина)\nдоц.\, к.н
+ . КОЛТОШОВА Т.В. \nИВТ-231\;ИВТ-232\;ИВТ-233\;ИВТ-234\;ИВТ-235\;МО-231\;ПИ
+ Н-231\;ПИН-232\;ПЭ-231н\;ФИТ-231\;ФИТ-232#Физическая культура и спорт (эле
+ ктивная дисциплина) \nПЕРЕСДАЧА ЗАДОЛЖЕННОСТИ \nГ-213а/Главный корпус
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260605T151000
+DTEND:20260605T164000
+UID:1c40beb56fd944ad6ba373b9fb44625a-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \nПЭ-231н \nПракт
+ ические занятия \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260605T165000
+DTEND:20260605T182000
+UID:c06a8e272caab626643b8b39ebc9ee2d-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Основы теории управления (системный анализ\, теория принятия решени
+ й\, теория эффективности)
+LOCATION:8-207/УЛК-8
+DESCRIPTION:Основы теории управления (системный анализ\, теория принятия ре
+ шений\, теория эффективности)\nдоц.\, к.н. СТАРИКОВ В.И. \n \nЛабораторные
+  работы \n8-207/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260606T113500
+DTEND:20260606T130500
+UID:3ff8ca98f0583b10f9680b67e6d3e506-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Сетевые технологии и веб-программирование
+LOCATION:8-209/УЛК-8
+DESCRIPTION:Сетевые технологии и веб-программирование\nдоц.\, к.н. ВИКУЛОВ 
+ Е.О. \nПоток(ПЭ-231н) \nЛекция \n8-209/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260606T131500
+DTEND:20260606T144500
+UID:47dcf8198f713ebec2f93a6309051c7f-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ nПоток(ПЭ-231н) \nЛекция \n8-216/УЛК-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260606T151000
+DTEND:20260606T164000
+UID:ff1dde57f56da4de646ae586935372ca-group-565@rasp.omgtu.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20260225T100042
+SUMMARY:Конструирование программного обеспечения
+LOCATION:8-216/УЛК-8
+DESCRIPTION:Конструирование программного обеспечения\nст.пр. ДЕРЕНКО Г.М. \
+ n \nЛабораторные работы \n8-216/УЛК-8
+END:VEVENT
+END:VCALENDAR
