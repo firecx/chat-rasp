@@ -47,10 +47,11 @@ public class IcsToJsonVeventsMapper {
     }
 
     public static String cleanIcs(String icsContent) {
-        // 1. Убираем пустые VTIMEZONE
+        //Убираем VTIMEZONE
         icsContent = icsContent.replaceAll("(?s)BEGIN:VTIMEZONE.*?END:VTIMEZONE\\s*", "");
-
+        //Добавляем Z к датам, если их нет, чтобы указать, что время в UTC
         icsContent = icsContent.replaceAll("(DTSTART|DTEND|DTSTAMP):([0-9T]+)", "$1:$2Z");
+
         return icsContent;
     }
 }

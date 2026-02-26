@@ -18,7 +18,6 @@ public class IcsToDtoVeventMapper {
         subjectDto.setSummary(event.getSummary() != null ? event.getSummary().getValue() : null);
         subjectDto.setDescription(event.getDescription() != null ? event.getDescription().getValue() : null);
         subjectDto.setLocation(event.getLocation() != null ? event.getLocation().getValue() : null);
-        subjectDto.setStatus(event.getStatus() != null ? event.getStatus().getValue() : null);
 
         // START
         DtStart<?> start = event.getDateTimeStart();
