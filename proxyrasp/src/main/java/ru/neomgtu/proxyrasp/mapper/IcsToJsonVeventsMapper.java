@@ -4,8 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -29,7 +27,7 @@ public class IcsToJsonVeventsMapper {
         return icsContentMono.map(icsContent -> {
             try {
                 List<SubjectDto> dtoList = new ArrayList<>();
-                //icsContent = cleanIcs(icsContent);
+                icsContent = cleanIcs(icsContent);
                 Calendar calendar = calendarBuilder.build(
                     new ByteArrayInputStream(icsContent.getBytes(StandardCharsets.UTF_8))
                 );
@@ -42,6 +40,7 @@ public class IcsToJsonVeventsMapper {
 
                 return jsonObjectMapper.writeValueAsString(dtoList);
             } catch (Exception e) {
+                System.err.println("\nError parsing ICS content: " + e.getMessage() + "\n");
                 throw new RuntimeException(e);
             }
         });
@@ -51,28 +50,7 @@ public class IcsToJsonVeventsMapper {
         // 1. Убираем пустые VTIMEZONE
         icsContent = icsContent.replaceAll("(?s)BEGIN:VTIMEZONE.*?END:VTIMEZONE\\s*", "");
 
-        // 2. Экранируем запятые и переносы строк в DESCRIPTION и SUMMARY
-        Pattern propPattern = Pattern.compile("(?m)^(DESCRIPTION|SUMMARY):(.*)$");
-        Matcher matcher = propPattern.matcher(icsContent);
-        StringBuffer sb = new StringBuffer();
-
-        while (matcher.find()) {
-            String propName = matcher.group(1);
-            String propValue = matcher.group(2).trim(); // убираем лишние пробелы
-            // экранируем запятые, точку с запятой и переносы строк
-            propValue = propValue.replace("\\", "\\\\")    // слеши экранируем
-                                 .replace(",", "\\,")
-                                 .replace(";", "\\;")
-                                 .replace("\n", "\\n");
-            matcher.appendReplacement(sb, propName + ":" + propValue);
-        }
-        matcher.appendTail(sb);
-
-        // 3. Убираем пробелы в начале строк свойств
-        String cleaned = sb.toString().replaceAll("(?m)^\\s+", "");
-
-        cleaned = cleaned.replaceAll("(?m)^(DTSTAMP|DTSTART|DTEND):([0-9]{8}T[0-9]{6})$", "$1:$2Z");
-
-        return cleaned;
+        icsContent = icsContent.replaceAll("(DTSTART|DTEND|DTSTAMP):([0-9T]+)", "$1:$2Z");
+        return icsContent;
     }
 }
