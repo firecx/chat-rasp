@@ -1,7 +1,5 @@
 package ru.neomgtu.proxyrasp.dto;
 
-import java.time.LocalDateTime;
-
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -12,8 +10,6 @@ public class SubjectDto {
     private String summary;
     private String description;
     private String location;
-    private LocalDateTime start;
-    private LocalDateTime end;
-    private String timezone;
-    private String status;
+    private String start;
+    private String end;
 }

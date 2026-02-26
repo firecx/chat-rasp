@@ -17,7 +17,7 @@ public class ScheduleController {
 
     private final ScheduleService scheduleService;
 
-    @GetMapping("/group/{groupId}")
+    @GetMapping(value = "/group/{groupId}", produces = "application/json")
     public Mono<String> getGroupSchedule(
             @PathVariable String groupId,
             @RequestParam String start,
