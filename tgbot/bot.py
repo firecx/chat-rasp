@@ -61,8 +61,6 @@ def format_lesson(lesson):
     end = _format_time(lesson.get('end', ''))
     time = f"{start} - {end}" if start or end else ''
     description = lesson.get('description', '')
-    if description and '\n' in description:
-        description = description.rsplit('\n', 1)[0].strip()
     auditorium = f"{lesson.get('location', '')}"
     lecturer = lesson.get('lecturer_title') or lesson.get('lecturer') or "Не указан"
 
