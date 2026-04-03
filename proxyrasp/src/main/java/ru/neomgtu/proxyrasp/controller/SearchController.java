@@ -17,7 +17,7 @@ public class SearchController {
     
     private final SearchService searchService;
 
-    @GetMapping(value = "/search", produces = "application/json")
+    @GetMapping(produces = "application/json")
     public Mono<String> getMethodName(@RequestParam String term, @RequestParam String type) {
         return searchService.search(term, type);
     }

@@ -10,7 +10,7 @@ import ru.neomgtu.proxyrasp.interfaces.ExternalSearchServer;
 @RequiredArgsConstructor
 public class SearchService {
     
-    private ExternalSearchServer externalSearchServer;
+    private final ExternalSearchServer externalSearchServer;
 
     public Mono<String> search(String term, String type) {
         return externalSearchServer.search(term, type);
