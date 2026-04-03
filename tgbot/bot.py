@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import random
 
 # Замени на свой токен
-bot = telebot.TeleBot('YOUR_BOT_TOKEN_HERE')
+bot = telebot.TeleBot('8497984818:AAFDMye_n9f-6x01gwGwRnf1TyjQhgKjGrk')
 
 user_data = {}
 
@@ -19,7 +19,7 @@ BTN_CHANGE_GROUP = '🔄 Сменить группу'
 # --- 1. ФУНКЦИИ РАБОТЫ С API ОМГТУ ---
 
 def get_group_id(group_name):
-    url = f"https://rasp.omgtu.ru/api/search?term={group_name}&type=group"
+    url = f"http://144.31.78.248:8080/api/search?term={group_name}&type=group"
     try:
         response = requests.get(url, timeout=5)
         if response.status_code == 200:
@@ -32,7 +32,7 @@ def get_group_id(group_name):
     return None
 
 def fetch_schedule_from_api(group_id, start_date, end_date):
-    url = f"https://rasp.omgtu.ru/api/schedule/group/{group_id}?start={start_date}&finish={end_date}&lng=1"
+    url = f"http://144.31.78.248:8080/api/schedule/group/{group_id}?start={start_date}&finish={end_date}&lng=1"
     try:
         response = requests.get(url, timeout=5)
         if response.status_code == 200:
@@ -41,16 +41,34 @@ def fetch_schedule_from_api(group_id, start_date, end_date):
         print(f"Ошибка при скачивании расписания: {e}")
     return []
 
+def _format_time(ts):
+        if not ts:
+            return ''
+        try:
+            if 'T' in ts:
+                after = ts.split('T', 1)[1].rstrip('Z')
+                hhmm = after[:4]
+                if len(hhmm) == 4 and hhmm.isdigit():
+                    hour = str(int(hhmm[:2]))
+                    minute = hhmm[2:]
+                    return f"{hour}:{minute}"
+        except Exception:
+            pass
+        return ts
+
 def format_lesson(lesson):
-    time = f"{lesson.get('beginLesson', '')} - {lesson.get('endLesson', '')}"
-    discipline = lesson.get('discipline', 'Без названия')
-    kind = lesson.get('kindOfWork', '')
-    auditorium = f"{lesson.get('building', '')} корп., ауд. {lesson.get('auditorium', '')}"
+    start = _format_time(lesson.get('start', ''))
+    end = _format_time(lesson.get('end', ''))
+    time = f"{start} - {end}" if start or end else ''
+    description = lesson.get('description', '')
+    if description and '\n' in description:
+        description = description.rsplit('\n', 1)[0].strip()
+    auditorium = f"{lesson.get('location', '')}"
     lecturer = lesson.get('lecturer_title') or lesson.get('lecturer') or "Не указан"
-    
+
     return (
         f"🕒 *{time}*\n"
-        f"📘 {discipline} ({kind})\n"
+        f"📘 {description}\n"
         f"🏫 {auditorium}\n"
         f"👨‍🏫 Преп: {lecturer}"
     )
@@ -218,8 +236,8 @@ def get_and_send_schedule(chat_id, group_id, group_name, start_date, end_date, t
     response_text = f"{title_text} | {group_name}\n\n"
     
     for d in sorted(schedule_by_date.keys()):
-        day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
-        response_text += f"🔹 *{d} ({day_str})*\n\n"
+        # day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
+        # response_text += f"🔹 *{d} ({day_str})*\n\n"
         
         daily_lessons = sorted(schedule_by_date[d], key=lambda x: x.get('beginLesson', ''))
         for lesson in daily_lessons:
