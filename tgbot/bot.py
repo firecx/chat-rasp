@@ -229,6 +229,14 @@ def get_and_send_schedule(chat_id, group_id, group_name, start_date, end_date, t
     schedule_by_date = {}
     for lesson in schedule_data:
         d = lesson.get("date")
+        if not d:
+            start_ts = lesson.get('start', '')
+            if 'T' in start_ts:
+                date_part = start_ts.split('T', 1)[0]
+                if len(date_part) >= 8 and date_part.isdigit():
+                    d = f"{date_part[:4]}.{date_part[4:6]}.{date_part[6:8]}"
+        if not d:
+            d = ''
         if d not in schedule_by_date:
             schedule_by_date[d] = []
         schedule_by_date[d].append(lesson)
@@ -236,9 +244,18 @@ def get_and_send_schedule(chat_id, group_id, group_name, start_date, end_date, t
     response_text = f"{title_text} | {group_name}\n\n"
     
     for d in sorted(schedule_by_date.keys()):
-        # day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
-        # response_text += f"🔹 *{d} ({day_str})*\n\n"
-        
+        day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
+        try:
+            date_obj = datetime.strptime(d, "%Y.%m.%d")
+            pretty_date = date_obj.strftime("%d.%m.%Y")
+        except Exception:
+            pretty_date = d or "Неизвестная дата"
+
+        header = f"🔹 *{pretty_date}*"
+        if day_str:
+            header += f" ({day_str})"
+        response_text += header + "\n\n"
+
         daily_lessons = sorted(schedule_by_date[d], key=lambda x: x.get('beginLesson', ''))
         for lesson in daily_lessons:
             response_text += format_lesson(lesson) + "\n\n"
