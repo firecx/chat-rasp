@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  proxyrasp:
+    build: .
+    image: proxyrasp:latest
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
