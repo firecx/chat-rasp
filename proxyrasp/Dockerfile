@@ -26,7 +26,7 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # Копируем собранный JAR из builder stage
-COPY --from=builder /app/build/libs/*.jar app.jar
+COPY --from=builder /app/build/libs/*SNAPSHOT.jar app.jar
 
 # Создаем не-root пользователя для безопасности
 RUN addgroup -S spring && adduser -S spring -G spring
