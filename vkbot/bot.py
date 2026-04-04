@@ -15,11 +15,11 @@ longpoll = VkLongPoll(vk_session)
 user_data = {}
 
 # Кнопки
-BTN_TODAY = "📅 Сегодня"
-BTN_TOMORROW = "📆 Завтра"
-BTN_WEEK = "🗓 На неделю"
-BTN_OTHER = "🔍 Другая дата"
-BTN_CHANGE_GROUP = "🔄 Сменить группу"
+BTN_TODAY = "Сегодня"
+BTN_TOMORROW = "Завтра"
+BTN_WEEK = "На неделю"
+BTN_OTHER = "Другая дата"
+BTN_CHANGE_GROUP = "Сменить группу"
 
 # ---------- API ОмГТУ ----------
 
@@ -112,11 +112,11 @@ def handle_buttons(user_id, text):
 
     if text == BTN_TODAY:
         d = today.strftime("%Y.%m.%d")
-        get_schedule(user_id, d, d, "📅 Сегодня")
+        get_schedule(user_id, d, d, "Сегодня")
 
     elif text == BTN_TOMORROW:
         d = (today + timedelta(days=1)).strftime("%Y.%m.%d")
-        get_schedule(user_id, d, d, "📆 Завтра")
+        get_schedule(user_id, d, d, "Завтра")
 
     elif text == BTN_WEEK:
         start = today.strftime("%Y.%m.%d")
