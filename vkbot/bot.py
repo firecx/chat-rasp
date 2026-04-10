@@ -7,7 +7,7 @@ import requests
 from datetime import datetime, timedelta
 
 # 🔑 ВСТАВЬ СВОЙ ТОКЕН ГРУППЫ VK
-TOKEN = "ТВОЙ_VK_TOKEN"
+#TOKEN = "ТВОЙ_VK_TOKEN"
 
 # Основной адрес API ОмГТУ
 API_BASE_URL = "http://144.31.78.248:8080"
@@ -54,10 +54,10 @@ def fetch_schedule(group_id, start, end):
 
 def format_lesson(lesson):
     return (
-        f"🕒 {lesson.get('start', '')} - {lesson.get('end', '')}\n"
-        f"📘 {lesson.get('description', '')}\n"
-        f"🏫 {lesson.get('location', '')}\n"
-        f"👨‍🏫 {lesson.get('lecturer') or 'Не указан'}\n"
+        f"🕒 {lesson.get('beginLesson', '')} - {lesson.get('endLesson', '')}\n"
+        f"📘 {lesson.get('discipline', '')}\n"
+        f"🏫 {lesson.get('building', '')}, {lesson.get('auditorium', '')}\n"
+        f"👨‍🏫 {lesson.get('lecturer') or 'Не указан'}\n"           
     )
 
 
