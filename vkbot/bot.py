@@ -8,6 +8,9 @@ from datetime import datetime, timedelta
 # 🔑 ВСТАВЬ СВОЙ ТОКЕН ГРУППЫ VK
 TOKEN = "ТВОЙ_VK_TOKEN"
 
+# Основной адрес API ОмГТУ
+API_BASE_URL = "http://144.31.78.248:8080"
+
 vk_session = vk_api.VkApi(token=TOKEN)
 vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
@@ -24,7 +27,7 @@ BTN_CHANGE_GROUP = "Сменить группу"
 # ---------- API ОмГТУ ----------
 
 def get_group_id(group_name):
-    url = f"http://144.31.78.248:8080/api/search?term={group_name}&type=group"
+    url = f"{API_BASE_URL}/api/search?term={group_name}&type=group"
     try:
         r = requests.get(url, timeout=5)
         if r.status_code == 200:
@@ -38,7 +41,7 @@ def get_group_id(group_name):
 
 
 def fetch_schedule(group_id, start, end):
-    url = f"http://144.31.78.248:8080/api/schedule/group/{group_id}?start={start}&finish={end}&lng=1"
+    url = f"{API_BASE_URL}/api/schedule/group/{group_id}?start={start}&finish={end}&lng=1"
     try:
         r = requests.get(url, timeout=5)
         if r.status_code == 200:
