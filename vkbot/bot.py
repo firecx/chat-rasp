@@ -1,6 +1,7 @@
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
+from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 
 import requests
 from datetime import datetime, timedelta
@@ -60,12 +61,25 @@ def format_lesson(lesson):
     )
 
 
-def send(user_id, text):
+def send(user_id, text, keyboard=None):
     vk.messages.send(
         user_id=user_id,
         message=text,
-        random_id=get_random_id()
+        random_id=get_random_id(),
+        keyboard=keyboard
     )
+
+
+def main_keyboard():
+    kb = VkKeyboard(one_time=False)
+    kb.add_button(BTN_TODAY, color=VkKeyboardColor.POSITIVE)
+    kb.add_button(BTN_TOMORROW, color=VkKeyboardColor.PRIMARY)
+    kb.add_line()
+    kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
+    kb.add_line()
+    kb.add_button(BTN_CHANGE_GROUP, color=VkKeyboardColor.NEGATIVE)
+    return kb.get_keyboard()
 
 
 # ---------- ЛОГИКА ----------
@@ -88,8 +102,8 @@ def handle_group(user_id, text):
     user_data[user_id]["group_id"] = group_id
 
     send(user_id,
-         f"✅ Группа {text} сохранена!\n\n"
-         f"{BTN_TODAY}\n{BTN_TOMORROW}\n{BTN_WEEK}\n{BTN_OTHER}\n{BTN_CHANGE_GROUP}")
+        f"✅ Группа {text} сохранена!",
+        keyboard=main_keyboard())
 
 
 def get_schedule(user_id, start, end, title):
@@ -113,24 +127,26 @@ def get_schedule(user_id, start, end, title):
 def handle_buttons(user_id, text):
     today = datetime.now()
 
-    if text == BTN_TODAY:
+    norm = text.strip().lower()
+
+    if norm == BTN_TODAY.lower():
         d = today.strftime("%Y.%m.%d")
         get_schedule(user_id, d, d, "Сегодня")
 
-    elif text == BTN_TOMORROW:
+    elif norm == BTN_TOMORROW.lower():
         d = (today + timedelta(days=1)).strftime("%Y.%m.%d")
         get_schedule(user_id, d, d, "Завтра")
 
-    elif text == BTN_WEEK:
+    elif norm == BTN_WEEK.lower():
         start = today.strftime("%Y.%m.%d")
         end = (today + timedelta(days=6)).strftime("%Y.%m.%d")
         get_schedule(user_id, start, end, "🗓 Неделя")
 
-    elif text == BTN_CHANGE_GROUP:
+    elif norm == BTN_CHANGE_GROUP.lower():
         user_data[user_id] = {}
         send(user_id, "Введи новую группу:")
 
-    elif text == BTN_OTHER:
+    elif norm == BTN_OTHER.lower():
         send(user_id, "Введи дату: ДД ММ ГГ (например: 10 11 26)")
 
 
