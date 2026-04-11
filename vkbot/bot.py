@@ -223,14 +223,7 @@ def handle_buttons(user_id, text):
         user_data[user_id]["mode"] = "teacher"
         user_data[user_id].pop("group_id", None)
         user_data[user_id].pop("group_name", None)
-        send(user_id, "Введите фамилию преподавателя (например: Иванов):", keyboard=teacher_keyboard())
-        return
-
-    if norm == BTN_SEARCH_GROUP.lower():
-        user_data[user_id]["mode"] = "group"
-        user_data[user_id].pop("teacher_id", None)
-        user_data[user_id].pop("teacher_name", None)
-        send(user_id, "Введи свою группу (например: ПЭ-231н):", keyboard=group_keyboard())
+        send(user_id, "Введите фамилию преподавателя (например: Иванов):")
         return
 
     if norm == BTN_CHANGE_GROUP.lower():
@@ -258,53 +251,26 @@ def handle_buttons(user_id, text):
     if norm == BTN_TODAY.lower():
         d = today.strftime("%Y.%m.%d")
         if user_data[user_id].get("mode") == "teacher":
-            if "teacher_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите преподавателя:", keyboard=teacher_keyboard())
-                return
             get_teacher_schedule(user_id, d, d, "Сегодня")
         else:
-            if "group_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите группу:", keyboard=group_keyboard())
-                return
             get_schedule(user_id, d, d, "Сегодня")
 
     elif norm == BTN_TOMORROW.lower():
         d = (today + timedelta(days=1)).strftime("%Y.%m.%d")
         if user_data[user_id].get("mode") == "teacher":
-            if "teacher_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите преподавателя:", keyboard=teacher_keyboard())
-                return
             get_teacher_schedule(user_id, d, d, "Завтра")
         else:
-            if "group_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите группу:", keyboard=group_keyboard())
-                return
             get_schedule(user_id, d, d, "Завтра")
 
     elif norm == BTN_WEEK.lower():
         start = today.strftime("%Y.%m.%d")
         end = (today + timedelta(days=6)).strftime("%Y.%m.%d")
         if user_data[user_id].get("mode") == "teacher":
-            if "teacher_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите преподавателя:", keyboard=teacher_keyboard())
-                return
             get_teacher_schedule(user_id, start, end, "🗓 Неделя")
         else:
-            if "group_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите группу:", keyboard=group_keyboard())
-                return
             get_schedule(user_id, start, end, "🗓 Неделя")
 
     elif norm == BTN_OTHER.lower():
-        # Ask for date, but ensure group/teacher is set
-        if user_data[user_id].get("mode") == "teacher":
-            if "teacher_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите преподавателя:", keyboard=teacher_keyboard())
-                return
-        else:
-            if "group_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите группу:", keyboard=group_keyboard())
-                return
         send(user_id, "Введи дату: ДД ММ ГГ (например: 10 11 26)")
 
 
@@ -318,18 +284,8 @@ def handle_custom_date(user_id, text):
         date = datetime(int(y), int(m), int(d))
         date_str = date.strftime("%Y.%m.%d")
 
-        if user_data[user_id].get("mode") == "teacher":
-            if "teacher_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите преподавателя:", keyboard=teacher_keyboard())
-                return
-            get_teacher_schedule(user_id, date_str, date_str,
-                                 f"🔍 {date.strftime('%d.%m.%Y')}")
-        else:
-            if "group_id" not in user_data[user_id]:
-                send(user_id, "Сначала укажите группу:", keyboard=group_keyboard())
-                return
-            get_schedule(user_id, date_str, date_str,
-                         f"🔍 {date.strftime('%d.%m.%Y')}")
+        get_schedule(user_id, date_str, date_str,
+                     f"🔍 {date.strftime('%d.%m.%Y')}")
 
     except:
         send(user_id, "❌ Ошибка даты, попробуй ещё раз")
@@ -366,34 +322,31 @@ for event in longpoll.listen():
         if user_id not in user_data:
             handle_start(user_id)
             continue
-        # Normalize once
-        norm = text.strip().lower()
 
-        # If the message is one of the keyboard commands, handle it first
-        buttons = {
-            BTN_TODAY.lower(), BTN_TOMORROW.lower(), BTN_WEEK.lower(), BTN_OTHER.lower(),
-            BTN_CHANGE_GROUP.lower(), BTN_CHANGE_TEACHER.lower(), BTN_CHANGE_SEARCH.lower(),
-            BTN_BY_TEACHER.lower(), BTN_SEARCH_GROUP.lower()
-        }
+        # Если режим еще не выбран — ожидаем выбор кнопки "По группе"/"По преподавателю"
+        if user_data[user_id].get("mode") is None:
+            norm = text.strip().lower()
+            if norm == BTN_SEARCH_GROUP.lower():
+                user_data[user_id]["mode"] = "group"
+                send(user_id, "Введи свою группу (например: ПЭ-231н):")
+                continue
+            elif norm == BTN_BY_TEACHER.lower():
+                user_data[user_id]["mode"] = "teacher"
+                send(user_id, "Введите фамилию преподавателя (например: Иванов):")
+                continue
+            else:
+                send(user_id, "Пожалуйста, выбери способ поиска:", keyboard=initial_keyboard())
+                continue
 
-        if norm in buttons:
-            handle_buttons(user_id, text)
-            continue
-
-        # If user is in group mode but hasn't set group yet, treat non-button text as group name
         if user_data[user_id].get("mode") == "group" and "group_id" not in user_data[user_id]:
             handle_group(user_id, text)
             continue
 
-        # If user is in teacher mode but hasn't set teacher yet, treat non-button text as teacher name
         if user_data[user_id].get("mode") == "teacher" and "teacher_id" not in user_data[user_id]:
             handle_teacher(user_id, text)
             continue
 
-        # If the message looks like a date (digits and spaces), handle as custom date
         if text.replace(" ", "").isdigit():
             handle_custom_date(user_id, text)
-            continue
-
-        # Fallback: treat as button-like text
-        handle_buttons(user_id, text)
+        else:
+            handle_buttons(user_id, text)
