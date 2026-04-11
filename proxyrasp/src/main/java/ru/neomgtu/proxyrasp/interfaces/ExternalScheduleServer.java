@@ -15,10 +15,18 @@ public interface ExternalScheduleServer {
 
     @GetExchange("/group/{groupId}")
     Mono<List<SubjectDto>> getScheduleByGroupId(
-            @PathVariable String groupId,
-            @RequestParam String start,
-            @RequestParam String finish,
-            @RequestParam int lng
+        @PathVariable String groupId,
+        @RequestParam String start,
+        @RequestParam String finish,
+        @RequestParam int lng
+    );
+
+    @GetExchange("/person/{personId}")
+    Mono<List<SubjectDto>> getScheduleByPersonId(
+        @PathVariable String personId,
+        @RequestParam String start,
+        @RequestParam String finish,
+        @RequestParam int lng
     );
 
 }

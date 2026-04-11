@@ -18,4 +18,8 @@ public class ScheduleService {
     public Mono<List<SubjectDto>> getScheduleByGroupId(String groupId, String start, String finish, int lng) {
         return externalScheduleServer.getScheduleByGroupId(groupId, start, finish, lng);
     }
+
+    public Mono<List<SubjectDto>> getScheduleByPersonId(String personId, String start, String finish, int lng) {
+        return externalScheduleServer.getScheduleByPersonId(personId, start, finish, lng);
+    }
 }

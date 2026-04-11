@@ -29,4 +29,13 @@ public class ScheduleController {
         return scheduleService.getScheduleByGroupId(groupId, start, finish, lng);
     }
 
+    @GetMapping(value = "/person/{personId}", produces = "application/json")
+    public Mono<List<SubjectDto>> getPersonSchedule(
+            @PathVariable String personId,
+            @RequestParam String start,
+            @RequestParam String finish,
+            @RequestParam int lng) {
+        return scheduleService.getScheduleByPersonId(personId, start, finish, lng);
+    };
+
 }
