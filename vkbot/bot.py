@@ -132,8 +132,9 @@ def group_keyboard():
     kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
     kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
     kb.add_line()
-    kb.add_button(BTN_CHANGE_GROUP, color=VkKeyboardColor.NEGATIVE)
-    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.SECONDARY)
+    # swapped positions and colors per request
+    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.NEGATIVE)
+    kb.add_button(BTN_CHANGE_GROUP, color=VkKeyboardColor.SECONDARY)
     return kb.get_keyboard()
 
 
@@ -145,8 +146,9 @@ def teacher_keyboard():
     kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
     kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
     kb.add_line()
-    kb.add_button(BTN_CHANGE_TEACHER, color=VkKeyboardColor.NEGATIVE)
-    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.SECONDARY)
+    # swapped positions and colors per request
+    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.NEGATIVE)
+    kb.add_button(BTN_CHANGE_TEACHER, color=VkKeyboardColor.SECONDARY)
     return kb.get_keyboard()
 
 
