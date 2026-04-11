@@ -24,6 +24,8 @@ BTN_TOMORROW = "Завтра"
 BTN_WEEK = "На неделю"
 BTN_OTHER = "Другая дата"
 BTN_CHANGE_GROUP = "Сменить группу"
+BTN_CHANGE_TEACHER = "Сменить преподавателя"
+BTN_CHANGE_SEARCH = "Сменить поиск"
 BTN_BY_TEACHER = "По преподавателю"
 BTN_SEARCH_GROUP = "По группе"
 
@@ -90,8 +92,10 @@ def format_lesson(lesson):
 
 def get_keyboard_for_user(user_id):
     mode = user_data.get(user_id, {}).get("mode")
-    if mode in ("group", "teacher"):
-        return main_keyboard()
+    if mode == "group":
+        return group_keyboard()
+    if mode == "teacher":
+        return teacher_keyboard()
     return initial_keyboard()
 
 
@@ -109,6 +113,18 @@ def send(user_id, text, keyboard=None):
 
 
 def main_keyboard():
+    # Keep for backward-compatibility but default to group keyboard
+    return group_keyboard()
+
+
+def initial_keyboard():
+    kb = VkKeyboard(one_time=True)
+    kb.add_button(BTN_SEARCH_GROUP, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.PRIMARY)
+    return kb.get_keyboard()
+
+
+def group_keyboard():
     kb = VkKeyboard(one_time=False)
     kb.add_button(BTN_TODAY, color=VkKeyboardColor.POSITIVE)
     kb.add_button(BTN_TOMORROW, color=VkKeyboardColor.PRIMARY)
@@ -117,14 +133,20 @@ def main_keyboard():
     kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
     kb.add_line()
     kb.add_button(BTN_CHANGE_GROUP, color=VkKeyboardColor.NEGATIVE)
-    kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.SECONDARY)
     return kb.get_keyboard()
 
 
-def initial_keyboard():
-    kb = VkKeyboard(one_time=True)
-    kb.add_button(BTN_SEARCH_GROUP, color=VkKeyboardColor.PRIMARY)
-    kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.PRIMARY)
+def teacher_keyboard():
+    kb = VkKeyboard(one_time=False)
+    kb.add_button(BTN_TODAY, color=VkKeyboardColor.POSITIVE)
+    kb.add_button(BTN_TOMORROW, color=VkKeyboardColor.PRIMARY)
+    kb.add_line()
+    kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
+    kb.add_line()
+    kb.add_button(BTN_CHANGE_TEACHER, color=VkKeyboardColor.NEGATIVE)
+    kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.SECONDARY)
     return kb.get_keyboard()
 
 
@@ -203,7 +225,23 @@ def handle_buttons(user_id, text):
         return
 
     if norm == BTN_CHANGE_GROUP.lower():
-        # Сбросим режим и вернём выбор поиска
+        # Сменить группу — попросим ввести новую группу
+        user_data[user_id]["mode"] = "group"
+        user_data[user_id].pop("group_id", None)
+        user_data[user_id].pop("group_name", None)
+        send(user_id, "Введи свою группу (например: ПЭ-231н):")
+        return
+
+    if norm == BTN_CHANGE_TEACHER.lower():
+        # Сменить преподавателя — попросим ввести фамилию
+        user_data[user_id]["mode"] = "teacher"
+        user_data[user_id].pop("teacher_id", None)
+        user_data[user_id].pop("teacher_name", None)
+        send(user_id, "Введите фамилию преподавателя (например: Иванов):")
+        return
+
+    if norm == BTN_CHANGE_SEARCH.lower():
+        # Вернуться к выбору поиска (группа/преподаватель)
         user_data[user_id] = {"mode": None}
         send(user_id, "Выберите поиск:", keyboard=initial_keyboard())
         return
@@ -265,8 +303,8 @@ def handle_teacher(user_id, text):
     user_data[user_id]["mode"] = "teacher"
 
     send(user_id,
-         f"✅ Преподаватель {text} сохранён!",
-         keyboard=main_keyboard())
+        f"✅ Преподаватель {text} сохранён!",
+        keyboard=teacher_keyboard())
 
 
 # ---------- ОСНОВНОЙ ЦИКЛ ----------
