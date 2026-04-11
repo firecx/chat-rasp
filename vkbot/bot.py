@@ -21,25 +21,27 @@ user_data = {}
 # Кнопки
 BTN_TODAY = "Сегодня"
 BTN_TOMORROW = "Завтра"
-BTN_WEEK = "На неделю"
-BTN_OTHER = "Другая дата"
+BTN_FOR_WEEK = "На неделю"
+BTN_OTHER_DATE = "Другая дата"
 BTN_CHANGE_GROUP = "Сменить группу"
 BTN_CHANGE_TEACHER = "Сменить преподавателя"
 BTN_CHANGE_SEARCH = "Сменить поиск"
 BTN_BY_TEACHER = "По преподавателю"
-BTN_SEARCH_GROUP = "По группе"
+BTN_BY_GROUP = "По группе"
 
 # ---------- API ОмГТУ ----------
 
-def get_group_id(group_name):
+def get_groups_by_name(group_name):
     url = f"{API_BASE_URL}/api/search?term={group_name}&type=group"
     try:
-        r = requests.get(url, timeout=5)
-        if r.status_code == 200:
-            data = r.json()
-            for item in data:
-                if item.get("label", "").lower() == group_name.lower():
-                    return item.get("id")
+        response = requests.get(url, timeout=5)
+        if response.status_code != 200:
+            return None
+        data = response.json()
+        if len(data) == 0:
+            return None
+        else:
+            return data
     except:
         pass
     return None
@@ -100,7 +102,6 @@ def get_keyboard_for_user(user_id):
 
 
 def send(user_id, text, keyboard=None):
-    # If no keyboard explicitly provided, choose one based on user's mode
     if keyboard is None:
         keyboard = get_keyboard_for_user(user_id)
 
@@ -113,13 +114,12 @@ def send(user_id, text, keyboard=None):
 
 
 def main_keyboard():
-    # Keep for backward-compatibility but default to group keyboard
     return group_keyboard()
 
 
 def initial_keyboard():
     kb = VkKeyboard(one_time=True)
-    kb.add_button(BTN_SEARCH_GROUP, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_BY_GROUP, color=VkKeyboardColor.PRIMARY)
     kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.PRIMARY)
     return kb.get_keyboard()
 
@@ -129,8 +129,8 @@ def group_keyboard():
     kb.add_button(BTN_TODAY, color=VkKeyboardColor.POSITIVE)
     kb.add_button(BTN_TOMORROW, color=VkKeyboardColor.PRIMARY)
     kb.add_line()
-    kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
-    kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
+    kb.add_button(BTN_FOR_WEEK, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_OTHER_DATE, color=VkKeyboardColor.SECONDARY)
     kb.add_line()
     # swapped positions and colors per request
     kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.NEGATIVE)
@@ -143,8 +143,8 @@ def teacher_keyboard():
     kb.add_button(BTN_TODAY, color=VkKeyboardColor.POSITIVE)
     kb.add_button(BTN_TOMORROW, color=VkKeyboardColor.PRIMARY)
     kb.add_line()
-    kb.add_button(BTN_WEEK, color=VkKeyboardColor.PRIMARY)
-    kb.add_button(BTN_OTHER, color=VkKeyboardColor.SECONDARY)
+    kb.add_button(BTN_FOR_WEEK, color=VkKeyboardColor.PRIMARY)
+    kb.add_button(BTN_OTHER_DATE, color=VkKeyboardColor.SECONDARY)
     kb.add_line()
     # swapped positions and colors per request
     kb.add_button(BTN_CHANGE_SEARCH, color=VkKeyboardColor.NEGATIVE)
@@ -162,19 +162,26 @@ def handle_start(user_id):
 def handle_group(user_id, text):
     send(user_id, "⏳ Ищу группу...")
 
-    group_id = get_group_id(text)
+    groups = get_groups_by_name(text)
 
-    if not group_id:
+    if groups == None:
         send(user_id, "❌ Группа не найдена, попробуй снова:")
         return
-
-    user_data[user_id]["group_name"] = text
-    user_data[user_id]["group_id"] = group_id
-    user_data[user_id]["mode"] = "group"
-
-    send(user_id,
-        f"✅ Группа {text} сохранена!",
-        keyboard=main_keyboard())
+    elif len(groups) == 1:
+        if groups[0].get("label", "").lower() == text.lower():
+            user_data[user_id]["group_name"] = text.lower()
+            user_data[user_id]["group_id"] = groups[0].get("id")
+            user_data[user_id]["mode"] = "group"
+            send(user_id,
+                f"✅ Группа {text} сохранена!",
+                keyboard=main_keyboard())
+        else:
+            send(user_id, f"Возможно вы имели в виду: {groups[0].get('label', '')}")
+    else:
+        for group in groups:
+            groups_found = ""
+            groups_found += "\n" + group.get("label", "")
+            send(user_id, f"Возможно вы имели в виду: {groups_found}")
 
 
 def get_schedule(user_id, start, end, title):
@@ -262,7 +269,7 @@ def handle_buttons(user_id, text):
         else:
             get_schedule(user_id, d, d, "Завтра")
 
-    elif norm == BTN_WEEK.lower():
+    elif norm == BTN_FOR_WEEK.lower():
         start = today.strftime("%Y.%m.%d")
         end = (today + timedelta(days=6)).strftime("%Y.%m.%d")
         if user_data[user_id].get("mode") == "teacher":
@@ -270,7 +277,7 @@ def handle_buttons(user_id, text):
         else:
             get_schedule(user_id, start, end, "🗓 Неделя")
 
-    elif norm == BTN_OTHER.lower():
+    elif norm == BTN_OTHER_DATE.lower():
         send(user_id, "Введи дату: ДД ММ ГГ (например: 10 11 26)")
 
 
@@ -326,7 +333,7 @@ for event in longpoll.listen():
         # Если режим еще не выбран — ожидаем выбор кнопки "По группе"/"По преподавателю"
         if user_data[user_id].get("mode") is None:
             norm = text.strip().lower()
-            if norm == BTN_SEARCH_GROUP.lower():
+            if norm == BTN_BY_GROUP.lower():
                 user_data[user_id]["mode"] = "group"
                 send(user_id, "Введи свою группу (например: ПЭ-231н):")
                 continue
