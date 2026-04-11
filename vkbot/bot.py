@@ -239,7 +239,7 @@ def handle_buttons(user_id, text):
         user_data[user_id]["mode"] = "teacher"
         user_data[user_id].pop("teacher_id", None)
         user_data[user_id].pop("teacher_name", None)
-        send(user_id, "Введите фамилию преподавателя (например: Иванов):")
+        send(user_id, "Введите имя преподавателя (например: Фамилия И.О.):")
         return
 
     if norm == BTN_CHANGE_SEARCH.lower():
@@ -332,7 +332,7 @@ for event in longpoll.listen():
                 continue
             elif norm == BTN_BY_TEACHER.lower():
                 user_data[user_id]["mode"] = "teacher"
-                send(user_id, "Введите фамилию преподавателя (например: Иванов):")
+                send(user_id, "Введите имя преподавателя (например: Фамилия И.О.):")
                 continue
             else:
                 send(user_id, "Пожалуйста, выбери способ поиска:", keyboard=initial_keyboard())
