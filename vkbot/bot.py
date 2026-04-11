@@ -178,10 +178,10 @@ def handle_group(user_id, text):
         else:
             send(user_id, f"Возможно вы имели в виду: {groups[0].get('label', '')}")
     else:
+        groups_found = ""
         for group in groups:
-            groups_found = ""
             groups_found += "\n" + group.get("label", "")
-            send(user_id, f"Возможно вы имели в виду: {groups_found}")
+        send(user_id, f"Возможно вы имели в виду: {groups_found}")
 
 
 def get_schedule(user_id, start, end, title):
