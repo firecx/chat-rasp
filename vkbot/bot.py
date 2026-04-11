@@ -88,7 +88,18 @@ def format_lesson(lesson):
     )
 
 
+def get_keyboard_for_user(user_id):
+    mode = user_data.get(user_id, {}).get("mode")
+    if mode in ("group", "teacher"):
+        return main_keyboard()
+    return initial_keyboard()
+
+
 def send(user_id, text, keyboard=None):
+    # If no keyboard explicitly provided, choose one based on user's mode
+    if keyboard is None:
+        keyboard = get_keyboard_for_user(user_id)
+
     vk.messages.send(
         user_id=user_id,
         message=text,
