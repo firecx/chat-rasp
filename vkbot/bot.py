@@ -46,18 +46,6 @@ def get_groups_by_name(group_name):
         pass
     return None
 
-
-def fetch_schedule(group_id, start, end):
-    url = f"{API_BASE_URL}/api/schedule/group/{group_id}?start={start}&finish={end}&lng=1"
-    try:
-        r = requests.get(url, timeout=5)
-        if r.status_code == 200:
-            return r.json()
-    except:
-        pass
-    return []
-
-
 def get_teacher_by_name(teacher_name):
     url = f"{API_BASE_URL}/api/search?term={teacher_name}&type=person"
     try:
@@ -73,6 +61,15 @@ def get_teacher_by_name(teacher_name):
         pass
     return None
 
+def fetch_group_schedule(group_id, start, end):
+    url = f"{API_BASE_URL}/api/schedule/group/{group_id}?start={start}&finish={end}&lng=1"
+    try:
+        r = requests.get(url, timeout=5)
+        if r.status_code == 200:
+            return r.json()
+    except:
+        pass
+    return []
 
 def fetch_teacher_schedule(teacher_id, start, end):
     url = f"{API_BASE_URL}/api/schedule/person/{teacher_id}?start={start}&finish={end}&lng=1"
@@ -185,12 +182,36 @@ def handle_group(user_id, text):
             groups_found += "\n" + group.get("label", "")
         send(user_id, f"Возможно вы имели в виду: {groups_found}")
 
+def handle_teacher(user_id, text):
+    send(user_id, "⏳ Ищу преподавателя...")
 
-def get_schedule(user_id, start, end, title):
+    teachers = get_teacher_by_name(text)
+
+    if teachers == None:
+        send(user_id, "❌ Преподаватель не найден, попробуй снова")
+        return
+    elif len(teachers) == 1:
+        if teachers[0].get("label", "").lower() == text.lower():
+            user_data[user_id]["teacher_name"] = text
+            user_data[user_id]["teacher_id"] = teachers[0].get("id")
+            user_data[user_id]["mode"] = "teacher"
+            send(user_id,
+                 f"✅ Преподаватель {text} сохранён!",
+                 keyboard=teacher_keyboard())
+        else:
+            send(user_id, f"Возможно вы имели в виду: {teachers[0].get('label', '')}")
+    else:
+        teachers_found = ""
+        for teacher in teachers:
+            teachers_found += "\n" + teacher.get("label", "")
+        send(user_id, f"Возможно вы имели в виду: {teachers_found}")
+
+
+def get_group_schedule(user_id, start, end, title):
     group_id = user_data[user_id]["group_id"]
     group_name = user_data[user_id]["group_name"]
 
-    data = fetch_schedule(group_id, start, end)
+    data = fetch_group_schedule(group_id, start, end)
 
     if not data:
         send(user_id, f"{title} | {group_name}\n\n🎉 Пар нет!")
@@ -262,14 +283,14 @@ def handle_buttons(user_id, text):
         if user_data[user_id].get("mode") == "teacher":
             get_teacher_schedule(user_id, d, d, "Сегодня")
         else:
-            get_schedule(user_id, d, d, "Сегодня")
+            get_group_schedule(user_id, d, d, "Сегодня")
 
     elif norm == BTN_TOMORROW.lower():
         d = (today + timedelta(days=1)).strftime("%Y.%m.%d")
         if user_data[user_id].get("mode") == "teacher":
             get_teacher_schedule(user_id, d, d, "Завтра")
         else:
-            get_schedule(user_id, d, d, "Завтра")
+            get_group_schedule(user_id, d, d, "Завтра")
 
     elif norm == BTN_FOR_WEEK.lower():
         start = today.strftime("%Y.%m.%d")
@@ -277,7 +298,7 @@ def handle_buttons(user_id, text):
         if user_data[user_id].get("mode") == "teacher":
             get_teacher_schedule(user_id, start, end, "🗓 Неделя")
         else:
-            get_schedule(user_id, start, end, "🗓 Неделя")
+            get_group_schedule(user_id, start, end, "🗓 Неделя")
 
     elif norm == BTN_OTHER_DATE.lower():
         send(user_id, "Введи дату: ДД ММ ГГ (например: 10 11 26)")
@@ -293,36 +314,13 @@ def handle_custom_date(user_id, text):
         date = datetime(int(y), int(m), int(d))
         date_str = date.strftime("%Y.%m.%d")
 
-        get_schedule(user_id, date_str, date_str,
+        get_group_schedule(user_id, date_str, date_str,
                      f"🔍 {date.strftime('%d.%m.%Y')}")
 
     except:
         send(user_id, "❌ Ошибка даты, попробуй ещё раз")
 
 
-def handle_teacher(user_id, text):
-    send(user_id, "⏳ Ищу преподавателя...")
-
-    teachers = get_teacher_by_name(text)
-
-    if teachers == None:
-        send(user_id, "❌ Преподаватель не найден, попробуй снова")
-        return
-    elif len(teachers) == 1:
-        if teachers[0].get("label", "").lower() == text.lower():
-            user_data[user_id]["teacher_name"] = text
-            user_data[user_id]["teacher_id"] = teachers[0].get("id")
-            user_data[user_id]["mode"] = "teacher"
-            send(user_id,
-                 f"✅ Преподаватель {text} сохранён!",
-                 keyboard=teacher_keyboard())
-        else:
-            send(user_id, f"Возможно вы имели в виду: {teachers[0].get('label', '')}")
-    else:
-        teachers_found = ""
-        for teacher in teachers:
-            teachers_found += "\n" + teacher.get("label", "")
-        send(user_id, f"Возможно вы имели в виду: {teachers_found}")
 
 
 # ---------- ОСНОВНОЙ ЦИКЛ ----------
