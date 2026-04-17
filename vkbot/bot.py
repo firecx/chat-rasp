@@ -58,15 +58,17 @@ def fetch_schedule(group_id, start, end):
     return []
 
 
-def get_teacher_id(teacher_name):
+def get_teacher_by_name(teacher_name):
     url = f"{API_BASE_URL}/api/search?term={teacher_name}&type=person"
     try:
-        r = requests.get(url, timeout=5)
-        if r.status_code == 200:
-            data = r.json()
-            for item in data:
-                if item.get("label", "").lower() == teacher_name.lower():
-                    return item.get("id")
+        response = requests.get(url, timeout=5)
+        if response.status_code != 200:
+            return None
+        data = response.json()
+        if len(data) == 0:
+            return None
+        else:
+            return data
     except:
         pass
     return None
@@ -165,7 +167,7 @@ def handle_group(user_id, text):
     groups = get_groups_by_name(text)
 
     if groups == None:
-        send(user_id, "❌ Группа не найдена, попробуй снова:")
+        send(user_id, "❌ Группа не найдена, попробуй снова")
         return
     elif len(groups) == 1:
         if groups[0].get("label", "").lower() == text.lower():
@@ -301,19 +303,27 @@ def handle_custom_date(user_id, text):
 def handle_teacher(user_id, text):
     send(user_id, "⏳ Ищу преподавателя...")
 
-    teacher_id = get_teacher_id(text)
+    teachers = get_teacher_by_name(text)
 
-    if not teacher_id:
-        send(user_id, "❌ Преподаватель не найден, попробуй снова:")
+    if teachers == None:
+        send(user_id, "❌ Преподаватель не найден, попробуй снова")
         return
-
-    user_data[user_id]["teacher_name"] = text
-    user_data[user_id]["teacher_id"] = teacher_id
-    user_data[user_id]["mode"] = "teacher"
-
-    send(user_id,
-        f"✅ Преподаватель {text} сохранён!",
-        keyboard=teacher_keyboard())
+    elif len(teachers) == 1:
+        if teachers[0].get("label", "").lower() == text.lower():
+            user_data[user_id]["teacher_name"] = text
+            user_data[user_id]["teacher_id"] = teachers[0].get("id")
+            user_data[user_id]["mode"] = "teacher"
+            send(user_id,
+                 f"✅ Преподаватель {text} сохранён!",
+                 keyboard=teacher_keyboard())
+        else:
+            send(user_id,
+                 f"Возможно вы имели в виду: {teachers[0].get("label", "")}")
+    else:
+        teachers_found = ""
+        for teacher in teachers:
+            teachers_found += "\n" + teacher.get("label", "")
+        send(user_id, f"Возможно вы имели в виду: {teachers_found}")
 
 
 # ---------- ОСНОВНОЙ ЦИКЛ ----------
