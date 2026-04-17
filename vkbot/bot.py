@@ -112,7 +112,7 @@ def get_keyboard_for_user(user_id):
     elif mode == "teacher":
         return teacher_keyboard()
     else:
-    return initial_keyboard()
+        return initial_keyboard()
 
 
 def send(user_id, text, keyboard=None):
@@ -363,7 +363,7 @@ def handle_custom_date(user_id, text):
 
         if len(parts) == 1:
             date = parse_dmY(parts[0])
-        date_str = date.strftime("%Y.%m.%d")
+            date_str = date.strftime("%Y.%m.%d")
             title = f"🔍 {date.strftime('%d.%m.%Y')}"
             if user_data[user_id].get("mode") == "teacher":
                 get_teacher_schedule(user_id, date_str, date_str, title)
