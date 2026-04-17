@@ -317,8 +317,7 @@ def handle_teacher(user_id, text):
                  f"✅ Преподаватель {text} сохранён!",
                  keyboard=teacher_keyboard())
         else:
-            send(user_id,
-                 f"Возможно вы имели в виду: {teachers[0].get("label", "")}")
+            send(user_id, f"Возможно вы имели в виду: {teachers[0].get('label', '')}")
     else:
         teachers_found = ""
         for teacher in teachers:
