@@ -132,6 +132,13 @@ def initial_keyboard():
     kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.PRIMARY)
     return kb.get_keyboard()
 
+def change_mode_keyboard():
+    kb = VkKeyboard(one_time=True)
+    kb.add_button(BTN_BY_GROUP, color=VkKeyboardColor.SECONDARY)
+    kb.add_button(BTN_BY_TEACHER, color=VkKeyboardColor.SECONDARY)
+    kb.add_line()
+    kb.add_button(BTN_CANCEL, color=VkKeyboardColor.NEGATIVE)
+    return kb.get_keyboard()
 
 def group_keyboard():
     kb = VkKeyboard(one_time=False)
@@ -175,10 +182,12 @@ def handle_group(user_id, text):
     if text.lower() == CANCEL:
         if user_data[user_id].get("group_id") == None:
             user_data[user_id].pop("mode", None)
-            send(user_id, "Действие отменено.", keyboard=initial_keyboard())
+            send(user_id, "Действие отменено.")
+            send(user_id, "Пожалуйста, выбери способ поиска:", keyboard=initial_keyboard())
             return
         else:
-            send(user_id, "Действие отменено.", keyboard=get_keyboard_for_user(user_id))
+            send(user_id, "Действие отменено.", keyboard=group_keyboard())
+            user_data[user_id]["mode"] = "group"
             return
     
     send(user_id, "⏳ Ищу группу...")
@@ -208,10 +217,12 @@ def handle_teacher(user_id, text):
     if text.lower() == CANCEL:
         if user_data[user_id].get("teacher_id") == None:
             user_data[user_id].pop("mode", None)
-            send(user_id, "Действие отменено.", keyboard=initial_keyboard())
+            send(user_id, "Действие отменено.")
+            send(user_id, "Пожалуйста, выбери способ поиска:", keyboard=initial_keyboard())
             return
         else:
-            send(user_id, "Действие отменено.", keyboard=get_keyboard_for_user(user_id))
+            send(user_id, "Действие отменено.", keyboard=teacher_keyboard())
+            user_data[user_id]["mode"] = "teacher"
             return
     
     send(user_id, "⏳ Ищу преподавателя...")
@@ -289,24 +300,20 @@ def handle_buttons(user_id, text):
 
     if norm == CHANGE_GROUP:
         # Сменить группу — попросим ввести новую группу
-        user_data[user_id]["mode"] = "group"
-        user_data[user_id].pop("group_id", None)
-        user_data[user_id].pop("group_name", None)
+        user_data[user_id]["mode"] = "CHANGE_GROUP"
         send(user_id, "Введи свою группу (например: ПЭ-231н):", keyboard=cancel_keyboard())
         return
 
     if norm == CHANGE_TEACHER:
         # Сменить преподавателя — попросим ввести фамилию
-        user_data[user_id]["mode"] = "teacher"
-        user_data[user_id].pop("teacher_id", None)
-        user_data[user_id].pop("teacher_name", None)
+        user_data[user_id]["mode"] = "CHANGE_TEACHER"
         send(user_id, "Введите имя преподавателя (например: Фамилия И.О.):", keyboard=cancel_keyboard())
         return
 
     if norm == CHANGE_SEARCH:
         # Вернуться к выбору поиска (группа/преподаватель)
-        user_data[user_id] = {"mode": None}
-        send(user_id, "Выберите поиск:", keyboard=initial_keyboard())
+        user_data[user_id]["change_mode"] = True
+        send(user_id, "Выберите поиск:", keyboard=change_mode_keyboard())
         return
 
     if norm == TODAY:
@@ -399,7 +406,7 @@ for event in longpoll.listen():
             handle_start(user_id)
 
         # Если режим еще не выбран — ожидаем выбор кнопки "По группе"/"По преподавателю"
-        if user_data[user_id].get("mode") is None:
+        if user_data[user_id].get("mode") is None or user_data[user_id].get("mode") == None:
             norm = text.strip().lower()
             if norm == BY_TEACHER:
                 user_data[user_id]["mode"] = "teacher"
@@ -416,6 +423,25 @@ for event in longpoll.listen():
         if user_data[user_id].get("awaiting_date"):
             handle_custom_date(user_id, text)
             continue
+        elif user_data[user_id].get("change_mode"):
+            user_data[user_id].pop("change_mode", None)
+            if text.strip().lower() == CANCEL:
+                send(user_id, "Действие отменено.", keyboard=get_keyboard_for_user(user_id))
+                continue
+            elif text.strip().lower() == BY_TEACHER:
+                user_data[user_id].pop("teacher_name", None)
+                user_data[user_id].pop("teacher_id", None)
+                user_data[user_id]["mode"] = "teacher"
+                
+                send(user_id, "Введите имя преподавателя (например: Фамилия И.О.):")
+                continue
+            elif text.strip().lower() == BY_GROUP:
+                user_data[user_id].pop("group_name", None)
+                user_data[user_id].pop("group_id", None)
+                user_data[user_id]["mode"] = "group"
+                
+                send(user_id, "Введи свою группу (например: ПЭ-231н):")
+            continue
         else:
             if user_data[user_id].get("mode") == "teacher":
                 if "teacher_id" not in user_data[user_id]:
@@ -425,5 +451,12 @@ for event in longpoll.listen():
                 if "group_id" not in user_data[user_id]:
                     handle_group(user_id, text)
                     continue
+            elif user_data[user_id].get("mode") == "CHANGE_GROUP":
+                handle_group(user_id, text)
+                continue
+            elif user_data[user_id].get("mode") == "CHANGE_TEACHER":
+                handle_teacher(user_id, text)
+                continue
+
 
             handle_buttons(user_id, text)
