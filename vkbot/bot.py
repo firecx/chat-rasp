@@ -275,10 +275,39 @@ def get_group_schedule(user_id, start, end, title):
         send(user_id, f"{title} | {group_name}\n\n🎉 Пар нет!")
         return
 
+    # Группируем занятия по дате
+    schedule_by_date = {}
+    for lesson in data:
+        d = lesson.get("date")
+        if not d:
+            # Попытка извлечь дату из временной метки, если есть
+            start_ts = lesson.get('beginLesson', '')
+            if 'T' in start_ts:
+                date_part = start_ts.split('T', 1)[0]
+                if len(date_part) >= 8 and date_part.isdigit():
+                    d = f"{date_part[:4]}.{date_part[4:6]}.{date_part[6:8]}"
+        if not d:
+            d = ''
+        schedule_by_date.setdefault(d, []).append(lesson)
+
     text = f"{title} | {group_name}\n\n"
 
-    for lesson in data:
-        text += format_lesson(lesson) + "\n"
+    for d in sorted(schedule_by_date.keys()):
+        day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
+        try:
+            date_obj = datetime.strptime(d, "%Y.%m.%d")
+            pretty_date = date_obj.strftime("%d.%m.%Y")
+        except Exception:
+            pretty_date = d or "Неизвестная дата"
+
+        header = f"🔹 {pretty_date}"
+        if day_str:
+            header += f" ({day_str})"
+        text += header + "\n\n"
+
+        daily_lessons = sorted(schedule_by_date[d], key=lambda x: x.get('beginLesson', ''))
+        for lesson in daily_lessons:
+            text += format_lesson(lesson) + "\n"
 
     send(user_id, text)
 
@@ -293,10 +322,38 @@ def get_teacher_schedule(user_id, start, end, title):
         send(user_id, f"{title} | {teacher_name}\n\n🎉 Пар нет!")
         return
 
+    # Группируем занятия по дате
+    schedule_by_date = {}
+    for lesson in data:
+        d = lesson.get("date")
+        if not d:
+            start_ts = lesson.get('beginLesson', '')
+            if 'T' in start_ts:
+                date_part = start_ts.split('T', 1)[0]
+                if len(date_part) >= 8 and date_part.isdigit():
+                    d = f"{date_part[:4]}.{date_part[4:6]}.{date_part[6:8]}"
+        if not d:
+            d = ''
+        schedule_by_date.setdefault(d, []).append(lesson)
+
     text = f"{title} | {teacher_name}\n\n"
 
-    for lesson in data:
-        text += format_lesson(lesson) + "\n"
+    for d in sorted(schedule_by_date.keys()):
+        day_str = schedule_by_date[d][0].get("dayOfWeekString", "")
+        try:
+            date_obj = datetime.strptime(d, "%Y.%m.%d")
+            pretty_date = date_obj.strftime("%d.%m.%Y")
+        except Exception:
+            pretty_date = d or "Неизвестная дата"
+
+        header = f"🔹 {pretty_date}"
+        if day_str:
+            header += f" ({day_str})"
+        text += header + "\n\n"
+
+        daily_lessons = sorted(schedule_by_date[d], key=lambda x: x.get('beginLesson', ''))
+        for lesson in daily_lessons:
+            text += format_lesson(lesson) + "\n"
 
     send(user_id, text)
 
