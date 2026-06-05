@@ -208,6 +208,21 @@ def handle_group(user_id, text):
         else:
             send(user_id, f"Возможно вы имели в виду: {groups[0].get('label', '')}")
     else:
+        # Если среди найденных групп есть точное совпадение по метке — выбираем её автоматически
+        exact = None
+        for group in groups:
+            if group.get("label", "").lower() == text.lower():
+                exact = group
+                break
+        if exact:
+            user_data[user_id]["group_name"] = exact.get("label", "").lower()
+            user_data[user_id]["group_id"] = exact.get("id")
+            user_data[user_id]["mode"] = "group"
+            send(user_id,
+                f"✅ Группа {exact.get('label', '')} сохранена!",
+                keyboard=group_keyboard())
+            return
+
         groups_found = ""
         for group in groups:
             groups_found += "\n" + group.get("label", "")
