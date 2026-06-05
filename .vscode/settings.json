@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "tgbot"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
 }
