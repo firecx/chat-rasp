@@ -17,7 +17,7 @@ COPY src/ src/
 RUN chmod +x gradlew
 
 # Собираем приложение (пропускаем тесты для ускорения)
-RUN ./gradlew build -x test
+RUN ./gradlew build --no-daemon -x test
 
 # Финальный образ
 FROM eclipse-temurin:21-jre-alpine
