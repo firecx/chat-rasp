@@ -7,17 +7,12 @@ WORKDIR /app
 # Копируем файлы для сборки
 COPY build.gradle .
 COPY settings.gradle .
-COPY gradlew .
-COPY gradle/ gradle/
 
 # Копируем исходный код
 COPY src/ src/
 
-# Даем права на выполнение gradlew
-RUN chmod +x gradlew
-
 # Собираем приложение (пропускаем тесты для ускорения)
-RUN ./gradlew build --no-daemon -x test
+RUN gradle build --no-daemon -x test
 
 # Финальный образ
 FROM eclipse-temurin:21-jre-alpine
