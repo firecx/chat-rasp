@@ -101,8 +101,9 @@ def format_lesson(lesson):
     return (
         f"🕒 {lesson.get('beginLesson', '')} - {lesson.get('endLesson', '')}\n"
         f"📘 {lesson.get('discipline', '')}\n"
+        f"🧾 {lesson.get('kindOfWork') or ''}\n"
         f"🏫 {lesson.get('building', '')}, {lesson.get('auditorium', '')}\n"
-        f"👨‍🏫 {lesson.get('lecturer') or 'Не указан'}\n"           
+        f"👨‍🏫 {lesson.get('lecturer') or 'Не указан'}\n"
     )
 
 
